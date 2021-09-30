@@ -1,0 +1,34 @@
+ body{
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#e0e2e6, #494c4d) ;
+}
+
+.card {
+  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 15px 35px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 21px 16px;
+}
+.btn {
+  width: 320px;
+  margin-left: 25%;
+}
+p{
+  font-size: 18px;
+  font-weight: 600;
+  color:#83a4d4;
+}
+h4{
+  color:#29323c;
+}
